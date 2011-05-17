@@ -29,6 +29,13 @@ while we are doing introductions.
 *** have some fun playing with it
 *** line up speakers for next meeting in July
 * Rex Alemy - basic use of R for biostatistics
+https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/Rex/
+Talk to Rex after the meetup if you want more information about RedCAP.
+
 * Isabella Ghement - the basics of data summarization
+https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/Isabella/
 * Tavis Rudd - short example of using R for log file analysis
 * You - collaborate on some basic exercises
+  https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/exercises/README.org
+  Please work in teams with people you haven't met before.
+  If you are experienced with R, help others.
