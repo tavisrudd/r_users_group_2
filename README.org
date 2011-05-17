@@ -1,0 +1,34 @@
+* Web links for this meetup
+
+view the files online:
+https://bitbucket.org/tavisrudd/r_users_group_2/src
+
+download link (zip file):
+https://bitbucket.org/tavisrudd/r_users_group_2/get/tip.zip
+
+download link (tarball):
+https://bitbucket.org/tavisrudd/r_users_group_2/get/tip.tar.gz
+
+If you don't already have R installed on your laptop, install it
+while we are doing introductions.
+
+* Introductions
+* Thanks to our Sponsors!
+   Pulse Energy, our host
+
+   Revolution Analytics
+
+* Goals
+** For the Group
+*** Not just about R!
+ Data management, analysis and visualization in general
+*** meetings every 2 months
+*** mix of interactive sessions and talks
+** Today
+*** continue learning the basics (or help others do so)
+*** have some fun playing with it
+*** line up speakers for next meeting in July
+* Rex Alemy - basic use of R for biostatistics
+* Isabella Ghement - the basics of data summarization
+* Tavis Rudd - short example of using R for log file analysis
+* You - collaborate on some basic exercises
