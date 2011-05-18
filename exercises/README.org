@@ -38,3 +38,4 @@ This is like the `range` function in Python.
 * figure out how to access each column of this dataset individually
 * show the first and last six elements of this dataset
 hint: there are built in functions that will do this for you
+* what are the types of the columns in `swiss`
