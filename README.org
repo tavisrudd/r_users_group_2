@@ -36,6 +36,6 @@ Talk to Rex after the meetup if you want more information about RedCAP.
 https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/Isabella/
 * Tavis Rudd - short example of using R for log file analysis
 * You - collaborate on some basic exercises
-  https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/exercises/README.org
+  https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/exercises/README.txt
   Please work in teams with people you haven't met before.
   If you are experienced with R, help others.
