@@ -1,3 +1,10 @@
+* Resources
+- http://www.statmethods.net/index.html (or google quick-r)
+
+- type ? followed by a function name to see built-in help
+
+- help.search function
+
 * hello world
 Start the R interpreter and print the string "hello world"
 * hello.world function
@@ -30,12 +37,27 @@ This is like the `range` function in Python.
 * use the Boolean matrix to take a subset of our first matrix
 ... where the condition is true
 ... and where it is false
-* what is the type of the subset
+* what are the type and dimensions of the subset
 * figure out how to create a random sample of 100 integers
 * take a random sample of five elements from your first matrix
+* find a way to sort the result of that sampling
+* create a `list` that contains the letters of English and 
+... and their position in the alphabet as separate fields
+
+hint: letters is a constant built-in to R
 * find the built-in dataset `swiss` and the help information about it
 * what are the `type`, `dimensions`, `structure`, and `dimension names` of this dataset
 * figure out how to access each column of this dataset individually
 * show the first and last six elements of this dataset
 hint: there are built in functions that will do this for you
 * what are the types of the columns in `swiss`
+* create a subset of swiss that only includes the columns Catholic and Fertility
+* create a subset only showing the regions that are at least 50% Catholic
+* use the functions that Isabella mentioned to examine the swiss data
+* look at the `airquality` built-in dataset and create a subset without the NA Ozone values removed
+* plot the various dimensions of the airquality dataset
+* advanced exercise
+** work in groups to choose some line-based log data (like apache logs, syslog, etc.)
+** use `awk`, `perl`, `sed` or similar to select a subset (match a regular expression) and output csv
+** save the output into a csv file and then import into R
+** use what you've learnt so far to explore, summarize and plot the data 
