@@ -2,7 +2,7 @@
                                 ======
 
 Author: Tavis Rudd
-Date: 2011-05-17 16:59:09 PDT
+Date: 2011-05-17 17:03:03 PDT
 
 
 Table of Contents
@@ -101,9 +101,9 @@ Talk to Rex after the meetup if you want more information about RedCAP.
 
 8 You - collaborate on some basic exercises 
 --------------------------------------------
-  [https://bitbucket.org/tavisrudd/r\_users\_group\_2/src/tip/exercises/README.org]
+  [https://bitbucket.org/tavisrudd/r\_users\_group\_2/src/tip/exercises/README.txt]
   Please work in teams with people you haven't met before.
   If you are experienced with R, help others.
 
-  [https://bitbucket.org/tavisrudd/r\_users\_group\_2/src/tip/exercises/README.org]: https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/exercises/README.org
+  [https://bitbucket.org/tavisrudd/r\_users\_group\_2/src/tip/exercises/README.txt]: https://bitbucket.org/tavisrudd/r_users_group_2/src/tip/exercises/README.txt
 
