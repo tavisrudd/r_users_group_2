@@ -1,26 +1,104 @@
-* Resources
-- http://www.statmethods.net/index.html (or google quick-r)
+* Essential Resources 
+- type ? followed by a function name to see built-in help (function
+  must be in scope)
 
-- type ? followed by a function name to see built-in help
+- use help.search('a keyword') if you're not sure what to
+  look for
 
-- help.search function
+- google !!!
+
+- http://www.statmethods.net/index.html (or google quick-r) for intro material
 
 * hello world
 Start the R interpreter and print the string "hello world"
+
+#+begin_src R
+print("hello world") 
+# this is a comment
+#+end_src
+
 * hello.world function
 Create a function called hello.world that does what you did manually
 in the previous exercise. 
+
+#+begin_src R
+# define it
+hello.world <- function() { 
+  print("hello world")
+}
+# <- is the assignment operator, like = in javascript
+
+# call it 
+hello.world()
+#+end_src
+
 * create an anonymous version of the same function
+#+begin_src R
+# define it, but don't call it
+function() { print("hello world") }
+
+# define and call it 
+(function() { print("hello world") })()
+# this is just like javascript!
+
+# give it a name, how about "hello.world"
+hello.world <- function() { print("hello world") }
+hello.world()
+#+end_src
+
 * use Google to figure out what R's rules are for naming variables and functions
 * hello(name) function
 Create a variant of the previous function that accepts a `name`
 parameter and prints "Hello Mary", "Hello Lamb", etc. 
 
 Hint: you'll need to figure out how to concatenate/join strings
+
+#+begin_src R
+hello <- function(name) {
+  print(paste("hello", name))
+}
+hello("Jill")
+
+#+end_src
+
 * hello(name) with a default argument
 Give the `name` argument a default value.
+
+#+begin_src R
+hello <- function(name="Jack") {
+  print(paste("hello", name))
+}
+hello()
+
+#+end_src
+
+#+results:
+: hello Jack
+
+* create a `vector` of the following integers and assign it to a variable
+1,2,3,4
+#+begin_src R
+my.single.int <- 1234
+my.vector.of.ints <- c(1, 2, 3, 4)
+#+end_src
+* multiply each int by 5
+#+begin_src R
+my.single.int <- 1234
+my.single.int * 5
+my.vector.of.ints <- c(1, 2, 3, 4)
+my.vector.of.ints * 5
+#+end_src
 * create a `vector` of the following strings and assign it to a variable
 "Mary", "had", "a", "little", "lamb"
+
+#+begin_src R
+# 
+my.string <- "blah"
+
+my.vector.of.strings <- c("Mary", "had", "a", "little", "lamb")
+
+#+end_src
+
 * use help.search to find a function that can convert each element in that vector to uppercase 
 * find a function that will give you the length of the vector
 * figure out the syntax to get the third element in the vector
